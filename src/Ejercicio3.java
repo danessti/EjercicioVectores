@@ -40,7 +40,7 @@ public class Ejercicio3 {
         System.out.println("Hay "+positivos+" positivos \n");
         System.out.println("Hay "+negativos+" negativos \n");
         System.out.println("Hay "+nulos+" nulos ");
-
+        System.out.println("Prueba cambio");
     }
 
 }
