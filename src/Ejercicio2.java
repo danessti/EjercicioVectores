@@ -10,16 +10,28 @@ public class Ejercicio2 {
 
         int[] vector = new int[5];
 
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i < 5; i++) {
 
             System.out.println("Vector "+(i+1));
             vector[i] = sc.nextInt();
 
         }
 
-        for (int i = 0; i <= 5; i++) {
-            System.out.println(vector[i]);
+        int pares = 0;
+        int impares = 0;
+
+        for (int i = 0; i < 5; i++) {
+
+            if (vector[i] % 2 ==0){
+                pares++;
+            } else {
+                impares++;
+            }
+
         }
+
+        System.out.println("Hay "+pares+" numeros pares");
+        System.out.println("Hay "+impares+" numeros impares");
 
     }
 
