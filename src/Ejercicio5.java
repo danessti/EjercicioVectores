@@ -12,10 +12,8 @@ public class Ejercicio5 {
         int[] vector = new int[10];
 
         for (int i = 0; i < 10; i++) {
-
             System.out.println("Ingrese el valor "+(i+1));
             vector[i] = sc.nextInt();
-
         }
 
         System.out.println("Ingrese un numero");
