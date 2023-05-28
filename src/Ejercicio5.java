@@ -18,10 +18,13 @@ public class Ejercicio5 {
 
         }
 
-        System.out.println("");
+        System.out.println("Ingrese un numero");
+        int num = sc.nextInt();
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(vector[i]);
+            if (vector[i] > num) {
+                System.out.println(vector[i]);
+            }
         }
 
     }
