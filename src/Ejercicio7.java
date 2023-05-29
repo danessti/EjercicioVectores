@@ -15,13 +15,16 @@ public class Ejercicio7 {
             vector[i] = (int)(Math.random() * (50 + 1));
         }
 
+        int contador = 0;
+
         for (int i = 0; i < 20; i++) {
             if (vector[i] % 2 == 1) {
                 System.out.print(vector[i] + " ");
+                contador++;
             }
         }
 
-        System.out.println("");
+        System.out.println("\nHay "+contador+" numeros primos ");
 
     }
 
